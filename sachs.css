@@ -1,0 +1,99 @@
+.all {
+  display: flex;
+  justify-content: space-between;
+}
+/*  */
+body {
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*  */
+.head {
+  display: block;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.new{
+  color: slateblue;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.old{
+  display: block;
+  font-family: sans-serif;
+}
+.era{
+  display: block;
+  font-family: sans-serif;
+}
+/*  */
+img {
+  height: 15rem;
+  width: 30rem;
+  padding-top: 120px;
+}
+/*  */
+.acct{
+  color: darkgrey;
+  font-weight: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  opacity: 0.5;
+  padding-top: 25px;
+}
+/*  */
+.inp{
+  display: block;
+}
+.mail{
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  border-left-width: 20px;
+  margin-bottom: 20px;
+  border-bottom-color: whitesmoke;
+  border-left-color: slateblue;
+  border-right-color: whitesmoke;
+  border-top-color: whitesmoke;
+}
+.word{
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  border-left-width: 20px;
+  border-bottom-color: whitesmoke;
+  border-left-color: slateblue;
+  border-right-color: whitesmoke;
+  border-top-color: whitesmoke;
+}
+/*  */
+.box{
+  color: darkgrey;
+  font-family: sans-serif;
+  font-size: 15px;
+  opacity: 0.5;
+}
+.pass{
+  display: inline-flex;
+  margin-left: 40px;
+}
+/*  */
+.login{
+  background-color: slateblue;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+}
+.signup{
+  background-color: white;
+  color: slateblue;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-color: slateblue;
+  margin-left: 50px;
+}
